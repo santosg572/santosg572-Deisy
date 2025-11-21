@@ -6,7 +6,7 @@ df = pd.read_csv(file)
 
 key = df.keys()
 
-for i in range(1):
+for i in range(55):
   k = 3*i
   nom1 = key[k]
   nom2 = key[k+1]

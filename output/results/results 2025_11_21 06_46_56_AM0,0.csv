@@ -1,0 +1,2 @@
+Date,Time,Day,Trial,Animal,Trial Code,Strategy,IPE,Velocity,Distance covered,Average distance to goal,Average heading error,Percent of maze traversed,Latency,Score,Initial heading error,Entropy,Distance to swim path centroid,Average distance to centre of maze,Percent in angular corridor,Percent in annulus zone,Percent in smaller thigmotaxis zone,Percent in full thigmotaxis zone,Strategy (manual)
+1,31-1.4,31-1.4 0 1,Not Recognized,183.04,24.03,93.23,56.37,129.62,3,3.88,0,66.79032779344827,0,12.43,56.37,0.03,0.0,0.0,0.0,
