@@ -9,13 +9,13 @@ hh = datos.keys()
 
 ncol = 54
 
-i = 0
+i = 10
 
 k = 3*i
 
-dd = datos[[hh[0],hh[1],hh[2]]]
+dd = datos[[hh[k],hh[k+1],hh[k+2]]]
 
-print(dd)
+print(hh[k])
 
 dd.to_csv('prueba.csv', index=False)
 
