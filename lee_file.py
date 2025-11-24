@@ -1,10 +1,14 @@
 import pandas as pd
  
-file='PathFinder_Raw_Data/Watermaze_output/31-1.csv'
+file='PathFinder_Raw_Data/Watermaze_output/31-2.csv'
 
 df = pd.read_csv(file)
 
 key = df.keys()
+
+print(len(key))
+
+'''
 
 for i in range(55):
   k = 3*i
@@ -14,7 +18,7 @@ for i in range(55):
   datos = df[[nom1, nom2, nom3]]
   print(datos)
   datos.to_csv(nom1+'.csv', index=False)
-
+'''
 
 
 
